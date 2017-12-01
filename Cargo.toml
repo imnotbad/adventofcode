@@ -1,0 +1,4 @@
+[package]
+name = "AdventOfCode"
+version = "0.1.0"
+authors = ["Kaidan <fishstacks@protonmail.com>"]
