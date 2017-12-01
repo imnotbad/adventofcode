@@ -37,7 +37,8 @@ fn day_one_p2() -> u32 {
         })
         .collect();
     // create a zipped iterator containing middle values
-    for (num, mid_num) in numbers.iter().zip(numbers.iter().skip(numbers.len() / 2)) {
+    let numbers_mid = numbers.len()/2;
+    for (num, mid_num) in numbers.iter().zip(numbers.iter().skip(numbers_mid)) {
         if num == mid_num {
             sum += num * 2;
         }
