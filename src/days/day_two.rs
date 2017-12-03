@@ -1,7 +1,7 @@
 use super::helper;
 
 pub fn part_one() -> u32 {
-    let input = helper::input::into_string("./days/day_02.txt");
+    let input = helper::input::into_string("./days/day_two.txt");
     let mut total: u32 = 0;
     let input: Vec<Vec<u32>> = input
         .lines()
@@ -18,7 +18,7 @@ pub fn part_one() -> u32 {
 }
 
 pub fn part_two() -> u32 {
-    let input = helper::input::into_string("./days/day_02.txt");
+    let input = helper::input::into_string("./days/day_two.txt");
     let mut total: u32 = 0;
     let input: Vec<Vec<u32>> = input
         .lines()

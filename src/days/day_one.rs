@@ -2,7 +2,7 @@ use super::helper;
 
 pub fn part_one() -> u32 {
     let mut sum: u32 = 0;
-    let input = helper::input::into_string("./days/day_01.txt");
+    let input = helper::input::into_string("./days/day_one.txt");
     // turn input into digits
     let numbers: Vec<u32> = input
         .chars()
@@ -26,7 +26,7 @@ pub fn part_one() -> u32 {
 
 pub fn part_two() -> u32 {
     let mut sum: u32 = 0;
-    let input = helper::input::into_string("./days/day_01_p2.txt");
+    let input = helper::input::into_string("./days/day_one_part2.txt");
     // turn input into digits
     let numbers: Vec<u32> = input
         .chars()
