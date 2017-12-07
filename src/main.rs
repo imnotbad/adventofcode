@@ -2,5 +2,5 @@
 mod days;
 
 fn main() {
-    println!("{:?}", days::day_five::part_one());
+    println!("{:?}", days::day_five::part_two());
 }
